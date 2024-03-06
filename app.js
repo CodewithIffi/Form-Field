@@ -26,5 +26,7 @@ function calculateMarks() {
     result += `Percentage: ${percentage.toFixed(2)}%<br>`;
     result += `Grade: ${grade}`;
 
+    
+
     document.getElementById('result').innerHTML = result;
 }
